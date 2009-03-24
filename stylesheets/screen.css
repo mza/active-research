@@ -13,6 +13,12 @@ ul {
 	padding: 0px;
 }
 
+h1, h2, h3 {
+	margin: 0px;
+	font-weight: normal;
+	padding: 0px;
+}
+
 div#header {
 	border-bottom: 5px solid #AC0D0D;
 	background: #4C4C4C;
@@ -35,15 +41,65 @@ div#type {
 
 div#title {
 	font-family: Georgia, Times, serif;
-	font-size: 62px;
 	font-weight: normal;
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #d0d0d0;
 }
 
+h1 {
+	font-size: 62px;	
+}
+
+h2 {
+	font-size: 20px;
+	padding-bottom: 6px;
+}
+
+h3 {
+	font-size: 14px;
+	color: #666;
+}
+
+h3 a, div.details a, div.location a {
+	color: #AC0D0D;
+	text-decoration: none;
+}
+
+h3 a:hover, div.details a:hover, div.location a {
+	text-decoration: underline;
+}
+
 div.info {
 	padding-top: 10px;
+}
+
+div.location {
+	line-height: 20px;
+}
+
+div.speakers {
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	border-top: 1px solid #d0d0d0;
+}
+
+div.speaker {
+	margin-bottom: 25px;
+}
+
+div.details {
+	font-size: 13px;
+	line-height: 18px;
+	padding-bottom: 10px;
+}
+
+div.headline {
+	font-family: georgia, times, serif;
+	font-style: italic;
+	color: #666;
+	padding-bottom: 10px;
 }
 
 div.footer {
