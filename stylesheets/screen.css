@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Grande";
+}
+
+img {
+	border: 0px;
+}
+
+ul { 
+	margin: 0px;
+	padding: 0px;
+}
+
+div#header {
+	border-bottom: 5px solid #AC0D0D;
+	background: #4C4C4C;
+	padding-top: 4px;
+}
+
+div#content {
+	margin: 40px auto;
+	width: 650px;
+	text-align: center;
+}
+
+div#logo {
+	padding-bottom: 30px;
+}
+
+div#type {
+	padding-left: 20px;
+}
+
+div#title {
+	font-family: Georgia, Times, serif;
+	font-size: 62px;
+	font-weight: normal;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+div.info {
+	padding-top: 10px;
+}
+
+div.footer {
+	margin-top: 20px;
+	border-top: 1px solid #d0d0d0;
+	font-size: 11px;
+	padding-top: 10px;
+	color: #B3B3B3;
+}
+
+div.footer a {
+	color: #999;
+	text-decoration: none;
+}
+
+div.footer a:hover {
+	color: #800;
+}
+
+span.highlight {
+	color: #AC0D0D;
+}
