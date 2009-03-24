@@ -122,3 +122,8 @@ div.footer a:hover {
 span.highlight {
 	color: #AC0D0D;
 }
+
+div.launch a {
+	color: #AC0D0D;
+	font-size: 12px;
+}
